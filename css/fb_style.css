@@ -1,0 +1,190 @@
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-family: "Optimistic Text Medium";
+}
+
+.form-group label {
+  position: absolute;
+  left: 1rem;
+  top: 30%;
+  transform: translateY(10%);
+  transition: top 0.2s ease-out, font-size 0.2s ease-out;
+  pointer-events: none;
+  color: rgb(162 172 180);
+  display: inline;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  font-family: "Optimistic Text Medium";
+}
+
+.form-group input {
+  width: calc(100% - 40px);
+  /* Adjusted to accommodate icon width */
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 13px;
+  /* Added padding for the icon */
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label {
+  top: 0;
+  font-size: 12px;
+  color: #333;
+}
+
+#twbody,
+.tbook {
+  background-color: rgb(240 246 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+#fbbody,
+.fbook {
+  background-color: rgb(240 246 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+#igbody,
+.instacss {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 24px;
+  /* Adjust icon width */
+  height: 24px;
+  /* Adjust icon height */
+  background-image: url("/img/hide.png");
+  /* Replace with your icon path */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  mask-size: cover;
+  object-position: 10000px 10000px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.clear-input {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 24px;
+  /* Adjust icon width */
+  height: 24px;
+  /* Adjust icon height */
+  background-image: url("/img/cancel.png");
+  /* Path to your image file */
+  background-size: cover;
+  display: none;
+  /* Initially hide the clear icon */
+}
+
+/* Twitter css begins */
+
+.twform-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-family: "Optimistic Text Medium";
+}
+
+.twform-group label {
+  position: absolute;
+  left: 1rem;
+  top: 30%;
+  transform: translateY(10%);
+  transition: top 0.2s ease-out, font-size 0.2s ease-out;
+  pointer-events: none;
+  background-color: (0, 0, 0, 0);
+  display: inline;
+  font-size: 15px;
+  font-weight: 100;
+  overflow-wrap: break-word;
+  font-family: "Optimistic Text Medium";
+}
+
+.twform-group input {
+  width: calc(100% - 40px);
+  /* Adjusted to accommodate icon width */
+  padding: 16px;
+  border: 0.1px solid #ccc;
+  background-color: transparent;
+  color: rgb(231, 233, 234);
+  font-weight: 200;
+  border-radius: 4px;
+  font-size: 13px;
+  /* Added padding for the icon */
+}
+
+.twform-group input:focus ~ label,
+.twform-group input:valid ~ label {
+  top: 0;
+  font-size: 12px;
+  color: rgb(29, 155, 240);
+}
+
+#twbody,
+.tbook {
+  background-color: rgb(240 246 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.css-175oi2r {
+  align-items: left;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  list-style: none;
+  margin: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding: 0px;
+  position: relative;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.css-1jxf684 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0 solid black;
+  box-sizing: border-box;
+  color: whitesmoke;
+  display: inline;
+  font: inherit;
+  list-style: none;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  white-space: inherit;
+  word-wrap: break-word;
+}
